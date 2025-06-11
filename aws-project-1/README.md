@@ -12,5 +12,5 @@ Deployed at: `http://<your-ec2-ip>`
 
 ## Screenshots
 Here’s how the live website looks on EC2:
-![Preview](cloud computing internship/images/project-1.png)
+![Preview]("cloud computing internship/images/project-1.png")
 
