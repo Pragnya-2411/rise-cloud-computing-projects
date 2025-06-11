@@ -11,4 +11,5 @@ This project demonstrates how I deployed a custom HTML website on an Ubuntu EC2 
 Deployed at: `http://<your-ec2-ip>`
 
 ## Screenshots
+![Preview](images/project-1.png)
 
