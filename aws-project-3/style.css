@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.background {
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-container {
+  background:#4a154b;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 400px;
+  color: white;
+}
+
+.contact-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+form button {
+  width: 50%; 
+  margin: 0 auto;
+  display: block;
+  padding: 12px;
+  background: white;
+  color: #5f27cd;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #e0e0e0;
+}
+
+#statusMessage {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+}
