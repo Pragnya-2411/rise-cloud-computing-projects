@@ -6,7 +6,7 @@ This repository contains all 8 cloud computing projects I completed as part of t
 ## 📚 Project List
 
 1. ✅ **Deploy a Website on AWS EC2** – Live hosted HTML page using Apache
-2. ⏳ **Host Static Website with S3 & CloudFront** – Coming soon
+2. ✅ **Host Static Website with S3 & CloudFront** – A fast, globally distributed personal website hosted with AWS S3 + CloudFront.
 3. ⏳ **Serverless Contact Form Using Lambda** – Coming soon
 4. ⏳ **IoT Sensor Data Logging on Firebase** – Coming soon
 5. ⏳ **Containerize and Deploy App with Docker** – Coming soon
