@@ -13,7 +13,7 @@ Build a serverless contact form using HTML, JavaScript, AWS Lambda, and API Gate
 ## 🚀 Live Demo
 *Hosted locally*
 ![Preview](../images/project-3.png)
-![Preview](../images/project-3 logs.png)
+![Preview](../images/project-3%20logs.png)
 
 ## ✅ How It Works
 - The user submits a form
