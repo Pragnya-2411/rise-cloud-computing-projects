@@ -1,14 +1,21 @@
 import json
+import boto3
+import uuid
+import os
+
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('ContactFormSubmissions')
 
 def lambda_handler(event, context):
     print("Incoming event:", event)
-    # Handle CORS preflight request
+
+    # Handle CORS preflight
     if event['requestContext']['http']['method'] == 'OPTIONS':
         return {
             "statusCode": 200,
             "headers": {
                 "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "content-type",
+                "Access-Control-Allow-Headers": "Content-Type",
                 "Access-Control-Allow-Methods": "OPTIONS,POST"
             }
         }
@@ -19,16 +26,23 @@ def lambda_handler(event, context):
         email = body.get("email")
         message = body.get("message")
 
-        print(f"New contact form submission:\nName: {name}\nEmail: {email}\nMessage: {message}")
+        response = table.put_item(
+            Item={
+                "id": str(uuid.uuid4()),
+                "name": name,
+                "email": email,
+                "message": message
+            }
+        )
 
         return {
             "statusCode": 200,
             "headers": {
                 "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "content-type",
+                "Access-Control-Allow-Headers": "Content-Type",
                 "Access-Control-Allow-Methods": "OPTIONS,POST"
             },
-            "body": json.dumps({"message": "Form submitted successfully!"})
+            "body": json.dumps({"message": "Submission saved to DynamoDB!"})
         }
 
     except Exception as e:
@@ -37,8 +51,8 @@ def lambda_handler(event, context):
             "statusCode": 500,
             "headers": {
                 "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "content-type",
+                "Access-Control-Allow-Headers": "Content-Type",
                 "Access-Control-Allow-Methods": "OPTIONS,POST"
             },
-            "body": json.dumps({"error": "Internal server error."})
+            "body": json.dumps({"error": str(e)})
         }
