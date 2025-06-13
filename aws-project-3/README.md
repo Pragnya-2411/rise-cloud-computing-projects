@@ -25,3 +25,6 @@ Build a serverless contact form using HTML, JavaScript, AWS Lambda, and API Gate
 - Building serverless APIs
 - Handling JSON data in Lambda
 - Using CORS properly with API Gateway
+
+## 🖥 Lambda Backend
+See the full Lambda function here: [`lambda_function.py`](./lambda_function.py)
