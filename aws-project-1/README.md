@@ -14,7 +14,8 @@ and host a basic HTML/CSS website.
 Deployed at: `http://<your-ec2-ip>`
 
 ## Screenshots
-Here’s how the live website looks on EC2:
+Here’s how the live website looks on EC2:  
+(*To ensure cost-efficiency, I deactivated the EC2 instance used for Project 1 immediately after its completion.*)
 ![Preview](../images/project-1.png)
 ![Preview](../images/project-1%20instances.png)
 
