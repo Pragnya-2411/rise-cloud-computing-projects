@@ -18,3 +18,12 @@ This site is part of my RISE Internship project, hosted on Amazon S3 and deliver
 ## 📸 Screenshot
 ![Preview](../images/project-2.png)
 
+## 🔄 How It Works
+A static website was hosted using an AWS S3 bucket configured for static website hosting. The website files were uploaded and made publicly accessible. CloudFront was added as a CDN (Content Delivery Network) to distribute the site globally with improved performance and security. This setup eliminated the need for servers while ensuring high availability.
+
+## 🧠 What I Learned
+- How to configure and host websites using S3 buckets
+- Writing and applying bucket policies for public access
+- How CloudFront distributions cache and serve static assets
+- Understanding website endpoints vs. S3 URLs
+- Deploying cost-efficient and serverless websites on AWS
