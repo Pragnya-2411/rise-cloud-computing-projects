@@ -15,11 +15,13 @@ Deployed at: `http://<your-ec2-ip>:5000`
 (*Instance has been stopped to avoid unnecessary billing.*)
 
 ## 📸 Screenshots
-Here's a preview of the deployed app on EC2:  
-(*To ensure cost-efficiency, I deactivated the EC2 instance used for Project 5 after testing.*)
+Below Screenshot shows the testing in Docker
+![Preview](../images/To-Do_app.png)
 
-![Preview](../images/project-5-ui.png)
-![Preview](../images/project-5-instance.png)
+Here's a preview of the deployed app on EC2:  
+(*To ensure cost-efficiency, I deactivated the EC2 instance used for Project 5 after testing.*) 
+![Preview](../images/project-5.png)
+![Preview](../images/project-5%20instance.png)
 
 ## 🔄 How It Works
 - The To-Do app was built using Python’s Flask framework and styled with HTML/CSS.
