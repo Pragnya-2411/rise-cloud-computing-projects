@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+  <div class="card-container">
+    <div class="card" id="weatherCard">
+      <div class="card-front">
+        <h2>Weather App</h2>
+        <input type="text" id="cityInput" placeholder="Enter city" />
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+      <div class="card-back">
+        <div id="weatherResult"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const apiKey = "YOUR_API_KEY";
+
+    function getWeather() {
+      const city = document.getElementById("cityInput").value;
+
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+        .then(response => response.json())
+        .then(data => {
+          const weatherHTML = `
+            <h2>${data.name}</h2>
+            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="icon">
+            <p><strong>${data.main.temp}&#8451;</strong></p>
+            <p>${data.weather[0].description}</p>
+            <button onclick=\"flipBack()\">Back</button>
+          `;
+          document.getElementById("weatherResult").innerHTML = weatherHTML;
+          document.getElementById("weatherCard").classList.add("flip");
+        })
+        .catch(error => {
+          alert("City not found or API error");
+        });
+    }
+
+    function flipBack() {
+      document.getElementById("weatherCard").classList.remove("flip");
+    }
+  </script>
+</body>
+</html>
