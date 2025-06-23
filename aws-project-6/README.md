@@ -12,8 +12,8 @@ Build a simple weather app using OpenWeatherMap API and display real-time weathe
 ![Preview](../video/preview.mp4)
 
 ## 📸 Screenshots
-![Preview](../images/project-6_front)
-![Preview](../images/project-6_back)
+![Preview](../images/project-6_front.png)
+![Preview](../images/project-6_back.png)
 
 ## 🔄 How It Works
 - The user enters a city name and clicks "Get Weather".
