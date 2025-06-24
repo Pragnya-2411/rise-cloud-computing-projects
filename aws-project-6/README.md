@@ -7,11 +7,23 @@ Build a simple weather app using OpenWeatherMap API and display real-time weathe
 - HTML, CSS & JavaScript
 - OpenWeatherMap API
 - VS Code (Live Server)
+- GitHub Actions for CI/CD
+- GitHub Pages for deployment
+
+## Try activity of API key in browser
+https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY&units=metric  
+
+## 🌐 Live Demo
+🔗 [View Live Weather App](https://pragnya-2411.github.io/weather-app/)
+
+🔗 [Weather App GitHub Repository](https://github.com/Pragnya-2411/weather-app)
 
 ## 📸 Video
+(*locally deployed*)
 ![Preview](../video/preview.mp4)
 
 ## 📸 Screenshots
+(*Deployed using gitHub*)
 ![Preview](../images/project-6_front.png)
 ![Preview](../images/project-6_back.png)
 
