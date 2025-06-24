@@ -10,6 +10,10 @@ Build a simple weather app using OpenWeatherMap API and display real-time weathe
 - GitHub Actions for CI/CD
 - GitHub Pages for deployment
 
+## 🚀 CI/CD
+Deployed using GitHub Actions to `gh-pages` branch.  
+This project uses GitHub Actions to automate deployment by pushing build files to the gh-pages branch. GitHub Pages serves the site from that branch.
+
 ## Try activity of API key in browser
 https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY&units=metric  
 
