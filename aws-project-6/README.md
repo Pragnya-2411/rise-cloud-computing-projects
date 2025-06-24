@@ -1,7 +1,7 @@
 # Weather Forecast App 🌦️
 
 ## 🎯 Objective
-Build a simple weather app using OpenWeatherMap API and display real-time weather for a searched city.
+Automate the build and deployment process using GitHubActions when code is pushed.
 
 ## 🔧 Tools Used
 - HTML, CSS & JavaScript
@@ -23,7 +23,7 @@ https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY&units
 🔗 [Weather App GitHub Repository](https://github.com/Pragnya-2411/weather-app)
 
 ## 📸 Video
-(*locally deployed*)
+(*locally deployed*)  
 ![Preview](../video/preview.mp4)
 
 ## 📸 Screenshots
