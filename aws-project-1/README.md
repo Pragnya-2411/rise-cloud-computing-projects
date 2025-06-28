@@ -11,7 +11,7 @@ and host a basic HTML/CSS website.
 - Git & GitHub
 
 ## 🌐 Live Website
-Deployed at: `http://<your-ec2-ip>`
+Deployed at: `http://<ec2-ip-address>`
 
 ## Screenshots
 Here’s how the live website looks on EC2:  
