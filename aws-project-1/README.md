@@ -19,6 +19,9 @@ Here’s how the live website looks on EC2:
 ![Preview](../images/project-1.png)
 ![Preview](../images/project-1%20instances.png)
 
+## Video explanation
+![Preview](../video/project-1.mp4)  
+
 ## 🔄 How It Works
 This project involves launching a Linux-based EC2 instance on AWS and hosting a static HTML/CSS website using Apache. The EC2 instance acts as a remote server that can serve web content globally over the internet. After configuring the security group and web server, the site becomes publicly accessible through the instance's public IP address.
 
