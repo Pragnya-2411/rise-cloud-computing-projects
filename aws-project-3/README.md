@@ -17,6 +17,9 @@ A modern, fully serverless web app that collects contact form submissions and st
 ![Preview](../images/project-3%20logs.png)
 ![Preview](../images/project-3%20DynamoDB.png)
 
+## 📹 Video explanation
+[Click here to view the screen recording](https://drive.google.com/file/d/1g9lIXahdJQWtLl6I5wSSZ9b1gqjwItbv/view?usp=sharing)
+
 ## ✅ How It Works
 - The user submits a form
 - JavaScript sends the data to API Gateway
