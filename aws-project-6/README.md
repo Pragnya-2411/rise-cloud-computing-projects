@@ -41,6 +41,7 @@ https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY&units
  `git add .`  
  `git commit-m "Initial commit"` 
  `git push-u origin main`  
+ 
 ## 🔄 How It Works
 - The user enters a city name and clicks "Get Weather".
 - The app sends a request to the OpenWeatherMap API.
