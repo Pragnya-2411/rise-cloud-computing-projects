@@ -39,7 +39,7 @@ https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY&units
  `git init`   
  `git remote add origin https://github.com/Pragnya-2411/weather-app.git`  
  `git add .`  
- `git commit-m "Initial commit"` 
+ `git commit-m "Initial commit"`  
  `git push-u origin main`  
  
 ## 🔄 How It Works
