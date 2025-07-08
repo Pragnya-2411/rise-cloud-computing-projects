@@ -23,6 +23,9 @@ Here's a preview of the deployed app on EC2:
 ![Preview](../images/project-5.png)
 ![Preview](../images/project-5%20instance.png)
 
+## 📹 Video explanation
+[Click here to view the screen recording](https://drive.google.com/file/d/1IPB0dPFl_30CYkiWejiMpxUOMX_0SS0B/view?usp=sharing)
+
 ## 🔄 How It Works
 - The To-Do app was built using Python’s Flask framework and styled with HTML/CSS.
 - A `Dockerfile` was used to containerize the app, making it portable and consistent across environments.

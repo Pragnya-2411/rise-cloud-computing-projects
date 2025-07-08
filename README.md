@@ -1,7 +1,7 @@
 # rise-cloud-computing-projects
 RISE Internship – Cloud Computing Projects || Tamizhan Skills
 
-This repository contains all 8 cloud computing projects I completed as part of the **RISE Internship by Tamizhan Skills**.
+This repository contains cloud computing projects I completed as part of the **RISE Internship by Tamizhan Skills**.
 
 ## 📚 Project List
 
